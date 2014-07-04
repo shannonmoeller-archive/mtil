@@ -1,0 +1,33 @@
+{
+  "name": "mtil",
+  "version": "0.1.0",
+  "description": "mtil ====",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/militiajs/mtil"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/militiajs/mtil/issues"
+  },
+  "homepage": "https://github.com/militiajs/mtil",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.5",
+    "gulp-istanbul": "^0.2.0",
+    "gulp-jscs": "^0.6.0",
+    "gulp-jshint": "^1.6.4",
+    "gulp-livereload": "^2.1.0",
+    "gulp-mocha": "^0.4.1",
+    "gulp-watch": "^0.6.8",
+    "jshint-stylish": "^0.2.0"
+  }
+}
