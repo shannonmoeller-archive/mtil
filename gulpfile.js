@@ -4,7 +4,8 @@ var gulp = require('gulp'),
 	paths = {
 		gulp: 'gulpfile.js',
 		src: 'src/**/*.js',
-		test: 'test/**/*Spec.js'
+		test: 'test/**/*Spec.js',
+		bench: 'test/**/*Bench.js'
 	};
 
 gulp.task('default', ['lint', 'test']);
@@ -36,6 +37,14 @@ gulp.task('test', ['cover'], function () {
 		.src(paths.test)
 		.pipe(mocha({ reporter: 'spec' }))
 		.pipe(istanbul.writeReports());
+});
+
+gulp.task('bench', function () {
+	var mocha = require('gulp-mocha');
+
+	return gulp
+		.src(paths.bench)
+		.pipe(mocha({ reporter: 'spec' }));
 });
 
 gulp.task('watch', function () {

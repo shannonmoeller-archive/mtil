@@ -5,7 +5,7 @@ var inherits = require('../../function/inherits'),
 
 describe('function/inherits', function () {
 	it('should properly extend a constructor', function () {
-		var proto, inst;
+		var inst, proto;
 
 		function Foo() {}
 		function Bar() {}
