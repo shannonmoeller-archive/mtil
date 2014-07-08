@@ -2,24 +2,19 @@
   "name": "mtil",
   "version": "0.1.1-alpha.1",
   "description": "Supporting native JavaScript functionality since 2014.",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "gulp test"
-  },
+  "homepage": "https://github.com/militiajs/mtil",
+  "bugs": "https://github.com/militiajs/mtil/issues",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/militiajs/mtil"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/militiajs/mtil/issues"
+  "scripts": {
+    "coveralls": "gulp test && cat ./coverage/lcov.info | coveralls",
+    "test": "gulp test"
   },
-  "homepage": "https://github.com/militiajs/mtil",
   "devDependencies": {
     "benchmark": "^1.0.0",
-    "coveralls": "^2.11.0",
     "expect.js": "^0.3.1",
     "gulp": "^3.8.5",
     "gulp-istanbul": "^0.2.0",
@@ -27,12 +22,9 @@
     "gulp-jshint": "^1.6.4",
     "gulp-livereload": "^2.1.0",
     "gulp-mocha": "^0.4.1",
-    "gulp-util": "^2.2.19",
     "gulp-watch": "^0.7.0-alpha3",
     "jshint-stylish": "^0.2.0",
     "lodash": "^2.4.1",
-    "map-stream": "^0.1.0",
-    "mout": "^0.9.1",
-    "through2": "^0.5.1"
+    "mout": "^0.9.1"
   }
 }
