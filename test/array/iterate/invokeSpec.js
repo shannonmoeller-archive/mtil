@@ -4,7 +4,7 @@ var invoke = require('../../../array/iterate/invoke'),
 	expect = require('expect.js');
 
 describe('array/iterate/invoke', function () {
-	it('should return a list of sorted lists', function () {
+	it('should return a list of invoked method return values', function () {
 		var fixture = [
 			[1, 5, 9],
 			[7, 5, 3],
