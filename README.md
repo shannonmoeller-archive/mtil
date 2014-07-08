@@ -24,6 +24,12 @@ With [Component](http://component.io):
 
 _TODO: add api docs here_
 
+## Compatibility
+
+It's assumed that you're using the new shiny by including shims as needed for features that browsers and Node.js have not yet fully implemented. The tests used to create the support graph are generated atop [community ES shims][shim].
+
+_TODO: insert compatibility graph here_
+
 ## Contribute
 
 Standards for this project, including tests, code coverage, and semantics are enforced with a build tool. Pull requests must include passing tests with 100% code coverage and no linting errors. Now drop and give me 20!
@@ -54,12 +60,6 @@ $ npm install -g gulp
 # Run
 $ gulp
 ```
-
-## Compatibility
-
-It's assumed that you're using the new shiny by including shims as needed for features that browsers and Node.js have not yet fully implemented. The tests used to create the support graph are generated atop [community ES shims][shim].
-
-_TODO: insert compatibility graph here_
 
 ## License
 
