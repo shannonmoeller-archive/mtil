@@ -2,7 +2,7 @@
 
 # mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url]
 
-Supporting native JavaScript functionality since 2014, `mtil` is a collection of utility functions. It's similar to, and inspired by, the illustrious [Underscore][underscore], [Lo-Dash][lodash], and [MOUT][mout]. The big difference being `mtil` assumes you're using the latest and greatest JavaScript features (or polyfills thereof).
+Supporting native JavaScript functionality since 2014, `mtil` is a collection of utility functions. It's similar to, and inspired by, the illustrious [Underscore][underscore], [Lo-Dash][lodash], and [MOUT][mout]. The big difference being `mtil` assumes you're using the latest and greatest JavaScript features (or [polyfills][shims] thereof).
 
 Each utility is in its own file so you only add what you need to your code. No monolithic includes or build configurators here, thank you. Modules are available to use in ES6, CommonJS, and AMD formats.
 
@@ -26,7 +26,7 @@ _TODO: add api docs here_
 
 ## Compatibility
 
-It's assumed that you're using the new shiny by including shims as needed for features that browsers and Node.js have not yet fully implemented. The tests used to create the support graph are generated atop [community ES shims][shim].
+It's assumed that you're using the new shiny by including shims as needed for features that browsers and Node.js have not yet fully implemented. The tests used to create the support graph are generated atop [community ES shims][shims].
 
 _TODO: insert compatibility graph here_
 
@@ -77,5 +77,5 @@ MIT
 
 [lodash]:     http://lodash.com/
 [mout]:       http://moutjs.com/
-[shim]:       https://github.com/es-shims/
+[shims]:      https://github.com/es-shims/
 [underscore]: http://underscorejs.org/
