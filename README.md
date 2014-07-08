@@ -1,4 +1,4 @@
-<img alt="MilitiaJS" src="http://militiajs.github.io/assets/media/militia.svg" width="128" />
+<a href="http://militiajs.github.io/"><img alt="MilitiaJS" src="http://militiajs.github.io/assets/media/militia.svg" width="128" /></a>
 
 # mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url]
 
