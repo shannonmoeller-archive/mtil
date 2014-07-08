@@ -16,10 +16,6 @@ With [Bower](http://bower.io):
 
     $ bower install militiajs/mtil
 
-With [Component](http://component.io):
-
-    $ component install militiajs/mtil
-
 ## API Documentation
 
 _TODO: add api docs here_

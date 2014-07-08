@@ -5,7 +5,8 @@ var gulp = require('gulp'),
 		gulp: 'gulpfile.js',
 		src: '{array,function,object,promise}/**/*.js',
 		test: 'test/**/*Spec.js',
-		bench: 'test/**/*Bench.js'
+		bench: 'test/**/*Bench.js',
+		pkg: '*.json'
 	};
 
 gulp.task('default', ['lint', 'test']);
@@ -54,4 +55,13 @@ gulp.task('watch', function () {
 		watch = require('gulp-watch');
 
 	watch({ glob: [paths.src, paths.test] }).pipe(lr());
+});
+
+gulp.task('bump', function () {
+	var bump = require('gulp-bump');
+
+	return gulp
+		.src(paths.pkg)
+		.pipe(bump())
+		.pipe(gulp.dest('./'));
 });
