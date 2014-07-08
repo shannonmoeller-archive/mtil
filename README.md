@@ -1,4 +1,4 @@
-![MilitiaJS][militia-img]
+<img alt="MilitiaJS" src="http://militiajs.github.io/assets/media/militia.svg" width="128" />
 
 # mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url]
 
@@ -64,8 +64,6 @@ _TODO: insert compatibility graph here_
 ## License
 
 MIT
-
-[militia-img]:   http://militiajs.github.io/assets/media/militia.svg =128px
 
 [coveralls-img]: http://img.shields.io/coveralls/militiajs/mtil/master.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/militiajs/mtil
