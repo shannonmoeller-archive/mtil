@@ -3,7 +3,7 @@
 var gulp = require('gulp'),
 	paths = {
 		gulp: 'gulpfile.js',
-		src: 'src/**/*.js',
+		src: '{array,function,object,promise}/**/*.js',
 		test: 'test/**/*Spec.js',
 		bench: 'test/**/*Bench.js'
 	};
@@ -12,10 +12,12 @@ gulp.task('default', ['lint', 'test']);
 
 gulp.task('lint', function () {
 	var jscs = require('gulp-jscs'),
-		jshint = require('gulp-jshint');
+		jshint = require('gulp-jshint'),
+		plumber = require('gulp-plumber');
 
 	return gulp
 		.src([paths.gulp, paths.src, paths.test])
+		.pipe(plumber())
 		.pipe(jscs())
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));

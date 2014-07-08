@@ -1,7 +1,7 @@
 'use strict';
 
 function has(prop) {
-	return function(item) {
+	return function (item) {
 		return item.hasOwnProperty(prop);
 	};
 }

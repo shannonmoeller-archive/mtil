@@ -7,7 +7,7 @@
  *	   });
  */
 function spread(fn) {
-	return function(args) {
+	return function (args) {
 		return fn.apply(this, args);
 	};
 }

@@ -25,8 +25,8 @@
  * @return {Any}
  */
 function supply() {
-	var args = arguments;
-	var i = 0;
+	var args = arguments,
+		i = 0;
 
 	return function () {
 		var arg = args[i++];
