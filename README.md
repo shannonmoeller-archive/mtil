@@ -63,7 +63,7 @@ $ gulp
 
 ## License
 
-MIT
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 [coveralls-img]: http://img.shields.io/coveralls/militiajs/mtil/master.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/militiajs/mtil
