@@ -1,10 +1,10 @@
 <a href="http://militiajs.github.io/"><img alt="MilitiaJS" src="http://militiajs.github.io/assets/media/militia.svg" width="128" /></a>
 
-# mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url]
+# mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Chat][gitter-img]][gitter-url]
 
 Supporting native JavaScript functionality since 2014, `mtil` is a collection of utility functions. It's similar to, and inspired by, the illustrious [Underscore][underscore], [Lo-Dash][lodash], and [MOUT][mout]. The big difference being `mtil` assumes you're using the latest and greatest JavaScript features (or [polyfills][shims] thereof).
 
-Each utility is in its own file so you only add what you need to your code. No monolithic includes or build configurators here, thank you. Modules are available to use in ES6, CommonJS, and AMD formats.
+Each utility is in its own file so you only add what you need to your code. No monolithic includes or build configurators here, thank you. Modules -are- +will be+ available to use in ES6, CommonJS, and AMD formats.
 
 ## Install
 
@@ -64,6 +64,8 @@ Released under the [MIT License](http://www.opensource.org/licenses/mit-license.
 [coveralls-img]: http://img.shields.io/coveralls/militiajs/mtil/master.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/militiajs/mtil
 [downloads-img]: http://img.shields.io/npm/dm/mtil.svg?style=flat
+[gitter-img]:    http://img.shields.io/badge/gitter-militiajs/mtil-blue.svg?style=flat
+[gitter-url]:    https://gitter.im/militiajs/mtil
 [npm-img]:       http://img.shields.io/npm/v/mtil.svg?style=flat
 [npm-url]:       https://npmjs.org/package/mtil
 [travis-img]:    http://img.shields.io/travis/militiajs/mtil.svg?style=flat
