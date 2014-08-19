@@ -70,7 +70,7 @@ Released under the [MIT License](http://www.opensource.org/licenses/mit-license.
 [npm-url]:       https://npmjs.org/package/mtil
 [travis-img]:    http://img.shields.io/travis/militiajs/mtil.svg?style=flat-square
 [travis-url]:    https://travis-ci.org/militiajs/mtil
-[waffle-img]:    https://badge.waffle.io/militiajs/mtil.png?label=ready&title=Ready
+[waffle-img]:    http://img.shields.io/badge/waffle-militiajs/mtil-yellow.svg?style=flat-square
 [waffle-url]:    http://waffle.io/militiajs/mtil
 
 [lodash]:     http://lodash.com/
