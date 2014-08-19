@@ -1,6 +1,6 @@
 <a href="http://militiajs.github.io/"><img alt="MilitiaJS" src="http://militiajs.github.io/assets/media/militia.svg" width="128" /></a>
 
-# mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Chat][gitter-img]][gitter-url]
+# mtil [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url]
 
 Supporting native JavaScript functionality since 2014, `mtil` is a collection of utility functions. It's similar to, and inspired by, the illustrious [Underscore][underscore], [Lo-Dash][lodash], and [MOUT][mout]. The big difference being `mtil` assumes you're using the latest and greatest JavaScript features (or [polyfills][shims] thereof).
 
@@ -30,7 +30,7 @@ _TODO: insert compatibility graph here_
 
 Standards for this project, including tests, code coverage, and semantics are enforced with a build tool. Pull requests must include passing tests with 100% code coverage and no linting errors. Now drop and give me 20!
 
-[![Stories in Ready][waffle-img]][waffle-url]
+[![Stories in Ready][waffle-img]][waffle-url] [![Chat][gitter-img]][gitter-url]
 
 ### Setup
 
