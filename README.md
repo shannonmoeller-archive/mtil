@@ -61,14 +61,14 @@ $ gulp
 
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
-[coveralls-img]: http://img.shields.io/coveralls/militiajs/mtil/master.svg?style=flat
+[coveralls-img]: http://img.shields.io/coveralls/militiajs/mtil/master.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/militiajs/mtil
-[downloads-img]: http://img.shields.io/npm/dm/mtil.svg?style=flat
-[gitter-img]:    http://img.shields.io/badge/gitter-militiajs/mtil-blue.svg?style=flat
+[downloads-img]: http://img.shields.io/npm/dm/mtil.svg?style=flat-square
+[gitter-img]:    http://img.shields.io/badge/gitter-militiajs/mtil-blue.svg?style=flat-square
 [gitter-url]:    https://gitter.im/militiajs/mtil
-[npm-img]:       http://img.shields.io/npm/v/mtil.svg?style=flat
+[npm-img]:       http://img.shields.io/npm/v/mtil.svg?style=flat-square
 [npm-url]:       https://npmjs.org/package/mtil
-[travis-img]:    http://img.shields.io/travis/militiajs/mtil.svg?style=flat
+[travis-img]:    http://img.shields.io/travis/militiajs/mtil.svg?style=flat-square
 [travis-url]:    https://travis-ci.org/militiajs/mtil
 [waffle-img]:    https://badge.waffle.io/militiajs/mtil.png?label=ready&title=Ready
 [waffle-url]:    http://waffle.io/militiajs/mtil
